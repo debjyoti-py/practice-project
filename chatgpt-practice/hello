@@ -1,0 +1,13 @@
+# Example 1: Calculate Return on Equity (ROE)
+net_profit = 1200  # in crores
+shareholder_equity = 6000
+roe = (net_profit / shareholder_equity) * 100  # %
+
+# Example 2: PEG Ratio
+pe_ratio = 15
+earnings_growth = 12  # %
+peg_ratio = pe_ratio / earnings_growth
+
+# Example 3: Average EPS over 3 years
+eps_1, eps_2, eps_3 = 22.5, 25.0, 27.5
+avg_eps = (eps_1 + eps_2 + eps_3) / 3
